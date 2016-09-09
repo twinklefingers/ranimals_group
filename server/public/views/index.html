@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weekend 5 Challenge</title>
+    <link rel="stylesheet" href="/public/vendors/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Amatica+SC:700|Londrina+Outline|Ribeye+Marrow" rel="stylesheet">
+    <link rel="stylesheet" href="/public/styles/style.css" />
+
+    <script type="text/javascript" src="/public/vendors/angular.min.js"></script>
+    <script type="text/javascript" src="/public/vendors/angular-route.min.js"></script>
+    <script type="text/javascript" src="/public/scripts/clientapp.js"></script>
+    <script type="text/javascript" src="/public/scripts/factories/dataFactory.js"></script>
+    <script type="text/javascript" src="/public/scripts/controllers/controller.js"></script>
+
+  </head>
+  <body ng-app="myApp">
+      <div ng-include="'/public/views/partials/nav.html'"></div>
+      <main ng-view></main>
+      <div ng-include="'/public/views/partials/footer.html'"></div>
+
+  </body>
+</html>

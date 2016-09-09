@@ -1,0 +1,29 @@
+<div class="row">
+
+  <div class="row">
+    <div class="col-md-1 bottom-buffer"></div>
+    <div class="col-md-5 bottom-buffer">
+      <form id="animalChoice">
+        <select class="drop-down" ng-model="pickAnimal">
+        <option class="drop-down" ng-repeat="x in ranAnimals" value="{{x.value}}">{{x.type}}</option>
+        </select>
+        <button ng-click="ranAn()" class="submit">Submit</button>
+        <button ng-click="addFav(animal.id.$t, animal.animal.$t, animal.description.$t, animal.media.photos.photo[1].$t, animal.name.$t)" class="fav">Add to Favorites</button>
+      </form>
+      <!-- <h2>Critter Count: {{count[0].count}}</h2> -->
+    </div>
+  </div>
+
+  <div class="row content">
+    <div class="col-md-1 bottom-buffer"></div>
+    <div class="col-md-5 bottom-buffer">
+      <img class="pic" ng-src="{{animal.media.photos.photo[2].$t}}" />
+    </div>
+    <div class="col-md-5 bottom-buffer">
+      <h2>{{animal.name.$t}}</h2>
+      <p>{{animal.description.$t}}</p>
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+
+</div>

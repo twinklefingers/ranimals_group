@@ -1,0 +1,10 @@
+CREATE TABLE favorites (
+  id SERIAL PRIMARY KEY,
+  animal_id integer,
+  animal_type varchar(50),
+  description varchar(200),
+  image varchar(255),
+  name varchar(20)
+ );
+
+not sure if this is perfect yet

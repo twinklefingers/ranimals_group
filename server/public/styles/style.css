@@ -1,0 +1,109 @@
+body{
+  background-color: #e3fbfb;
+  font-family: 'Amatica SC', cursive;
+  font-size: 18px;
+}
+
+.panel-body{
+  height: 350px;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.jumbotron{
+  height: 300px;
+  font-size: 70px;
+  color: black;
+  /*margin-left: 35px;
+  margin-right: 35px;*/
+}
+
+.title{
+  font-family: 'Londrina Outline', cursive;
+  font-size: 60px;
+  margin-top: -20px;
+  margin-left: -40px;
+}
+
+.title-footer{
+  font-family: 'Londrina Outline', cursive;
+  font-size: 60px;
+  margin-top: 1px;
+  margin-right: -30px;
+}
+
+.ranimals:link, .ranimals:visited, .ranimals:hover, .ranimals:active, .jumboLink:hover{
+  color:black;
+  text-decoration: none;
+}
+
+.content{
+  height: 200px;
+}
+
+.bottom-buffer{
+  margin-bottom: 50px;
+}
+
+.buttons{
+  margin-left: 75px;
+}
+
+.links{
+  padding-right: 10px;
+  color: black;
+}
+
+.count{
+  text-align: left;
+  font-size: 30px;
+  padding-left: 70px;
+}
+
+.page-footer{
+  /*border-top: .5px solid #eee;*/
+  margin: 0 73px 0 73px;
+  text-align: right;
+}
+
+.address{
+  margin-top: -10px;
+  font-size: 20px;
+  font-family: 'Amatica SC', cursive;
+}
+
+.top-address{
+  margin-left: -40px;
+}
+
+.bottom-address{
+  margin-right: -40px;
+}
+
+.drop-down{
+  color: black;
+  background-color: #eee;
+}
+
+.pic{
+  box-shadow: 10px 10px 100px slategrey;
+  margin-top: 15px;
+}
+
+.favorite-critters{
+  list-style: none;
+}
+
+.each-animal{
+  padding-bottom: 10px;
+}
+
+.button{
+  margin-top: 25px;
+}
+
+.critterCount {
+  margin-top: 1px;
+  margin-left: 2px;
+  
+}
